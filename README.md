@@ -1,2 +1,8 @@
 pac-QLearning
 =============
+Q-LEARNING AND CLASSIFICATION
+In this project, you will design an approximate Q-learning agent with features, a perceptron classifier, and a slightly modified perceptron classifier for behavioral cloning. You will make an approximate Q-learning agent for Pacman that learns to win using custom features. For the perceptron classifiers, you will test the first classifier on a set of scanned handwritten digit images, and the second on sets of recorded pacman games from various agents. Even with simple features, your classifiers will be able to do quite well on these tasks when given enough training data.
+
+Optical character recognition (OCR) is the task of extracting text from image sources. The data set on which you will run your classifiers is a collection of handwritten numerical digits (0-9). This is a very commercially useful technology, similar to the technique used by the US post office to route mail by zip codes. There are systems that can perform with over 99% classification accuracy (see LeNet-5 for an example system in action).
+
+Behavioral cloning is the task of learning to copy a behavior simply by observing examples of that behavior. In this project, you will be using this idea to mimic various pacman agents by using recorded games as training examples. Your agent will then run the classifier at each action in order to try and determine which action would be taken by the observed agent.
